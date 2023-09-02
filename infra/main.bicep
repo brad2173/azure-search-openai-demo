@@ -52,8 +52,7 @@ param chatGptModelName string = 'gpt-35-turbo'
 param chatGptModelVersion string = '0613'
 param embeddingDeploymentName string = 'embedding'
 param embeddingDeploymentCapacity int = 30
-//param embeddingModelName string = 'text-embedding-ada-002'
-param embeddingModelName string = 'gpt-4-32k'
+param embeddingModelName string = 'text-embedding-ada-002'
 
 
 @description('Id of the user or app to assign application roles')
